@@ -1,0 +1,48 @@
+{
+  "name": "zod1typeorm",
+  "version": "1.0.0",
+  "description": "Initial setup of the Project.  Created with TypeScript, Zod, Bcrypt, JSON Web Token, Express, PostgreSQL, and TypeORM.",
+  "main": "index.ts",
+  "engines": {
+    "node": "22.x",
+    "npm": "10.x"
+  },
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "pro": "tsc && node dist/index.js",
+    "start": "node dist/index.js",
+    "typeorm": "typeorm-ts-node-esm"
+  },
+  "keywords": [
+    "TypeScript",
+    "PostgreSQL",
+    "Express",
+    "Zod",
+    "Jsonwebtoken",
+    "TypeORM"
+  ],
+  "author": "Craig Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.0",
+    "reflect-metadata": "^0.2.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.7.6",
+    "@types/pg": "^8.11.10",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
